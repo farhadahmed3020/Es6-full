@@ -14,12 +14,12 @@ console.log(studentName);
 
 // var vs let //
 let sum = 0;
-// for(var i = 0 ; i< 10 ; i++){
-//     sum = sum + 1;
-// }
-// console.log(i);
+for(var i = 0 ; i< 10 ; i++){
+    sum = sum + 1;
+}
+console.log(i);
 
 for(let i = 0; i<10 ; i++){
     sum = sum +1 ;
 }
-console.log(i);
+console.log("not works code");
